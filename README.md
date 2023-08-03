@@ -1,4 +1,4 @@
-# Ignite Rocketseat Tailwind CSS Dashboard
+![Capa](https://github.com/Natanaelvich/tailwind_ignite-rocketseat-23/assets/52014318/95a818eb-1a7a-4ead-b3f8-e2c0859282d1)
 
 ## About
 
