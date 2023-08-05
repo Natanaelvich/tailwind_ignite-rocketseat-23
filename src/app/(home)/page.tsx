@@ -49,14 +49,14 @@ export default function Home() {
                 name="firstName"
                 id="firstName"
                 type="text"
-                defaultValue="Diego"
+                defaultValue="Natanael"
               />
             </Input.Root>
             <Input.Root>
               <Input.Control
                 name="lastName"
                 type="text"
-                defaultValue="Fernandes"
+                defaultValue="Lima"
               />
             </Input.Root>
           </div>
@@ -75,7 +75,7 @@ export default function Home() {
                 id="email"
                 type="email"
                 name="email"
-                defaultValue="diego.schell.f@gmail.com"
+                defaultValue="taelima1997@gmail.com"
               />
             </Input.Root>
           </div>
