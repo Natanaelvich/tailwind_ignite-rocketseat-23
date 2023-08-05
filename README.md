@@ -1,4 +1,4 @@
-![Capa](https://github.com/Natanaelvich/tailwind_ignite-rocketseat-23/assets/52014318/95a818eb-1a7a-4ead-b3f8-e2c0859282d1)
+![Capa (1)](https://github.com/Natanaelvich/tailwind_ignite-rocketseat-23/assets/52014318/80f7d1e1-c3d1-4afb-8cc8-e1aa93ea5fdf)
 
 ## About
 
@@ -17,6 +17,10 @@ This is a project developed during the Ignite Rocketseat course. It is a dashboa
     <img alt="Simulator Screenshot - iPhone 14 - 2023-07-30 at 10 33 49" src="https://github.com/Natanaelvich/iweather_ignite-rocketseat-23/assets/52014318/54b06e0c-115d-4a92-82c8-be0449a8980e"
     width="200px">
 </p> -->
+
+## Videos
+
+https://github.com/Natanaelvich/tailwind_ignite-rocketseat-23/assets/52014318/15de208a-5497-49ce-8b34-5b481a8217f4
 
 ## Technologies
 
