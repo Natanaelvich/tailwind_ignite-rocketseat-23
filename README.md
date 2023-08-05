@@ -18,7 +18,7 @@ This is a project developed during the Ignite Rocketseat course. It is a dashboa
     width="200px">
 </p> -->
 
-## Videos
+## Videos 📹
 
 https://github.com/Natanaelvich/tailwind_ignite-rocketseat-23/assets/52014318/15de208a-5497-49ce-8b34-5b481a8217f4
 
