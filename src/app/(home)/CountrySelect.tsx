@@ -18,7 +18,7 @@ export function CountrySelect(props: CountrySelectProps) {
 
   return (
     <Select.Root value={value} onValueChange={handleCountrySelected}>
-      <Select.Trigger>
+      <Select.Trigger id="country">
         <Select.Value placeholder="Select your country...">
           {value && (
             <>
@@ -32,7 +32,7 @@ export function CountrySelect(props: CountrySelectProps) {
         </Select.Value>
       </Select.Trigger>
 
-      <Select.Content>
+      <Select.Content id="country-list">
         {Object.entries(countries).map(([code, title]) => {
           return (
             <Select.Item key={code} value={code}>

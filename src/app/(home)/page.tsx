@@ -132,11 +132,11 @@ export default function Home() {
             Timezone
           </label>
           <Select.Root>
-            <Select.Trigger>
+            <Select.Trigger id="timezone">
               <Select.Value placeholder="Select your timezone..." />
             </Select.Trigger>
 
-            <Select.Content>
+            <Select.Content id="timezone-list">
               <Select.Item value="utc-3">
                 <Select.ItemText>
                   Pacific Standard Time (PST)
