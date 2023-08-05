@@ -18,6 +18,7 @@ describe('Navigation', () => {
     cy.get('#timezone-list').contains('Pacific Standard Time (PST)').click()
 
     cy.get('#bio').type('Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor, nisl eget aliquam aliquam, nunc nunc aliquet nunc, vitae aliquam nisl nunc vitae nisl. Donec auctor, nisl eget aliquam aliquam, nunc nunc aliquet nunc, vitae aliquam nisl nunc vitae nisl.')
+    cy.screenshot()
   })
 
   it('should navigate to the about page', () => {
