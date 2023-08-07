@@ -6,13 +6,18 @@ import { Button } from '@/components/Button'
 import { SettingsTabs } from './SettingsTabs'
 import { CountrySelect } from './CountrySelect'
 import { Textarea } from '@/components/Form/Textarea'
+import { ToogleTheme } from './ToogleTheme'
 
 export default function Home() {
   return (
     <>
+    <div className="flex justify-between items-center">
       <h1 className="text-3xl font-medium text-zinc-900 dark:text-zinc-100">
         Settings
       </h1>
+    <ToogleTheme />
+    </div>
+
       <SettingsTabs />
       <div className="mt-6 flex flex-col">
         <div className="flex flex-col justify-between gap-4 lg:flex-row lg:items-center">
@@ -51,7 +56,6 @@ export default function Home() {
             <Input.Root>
               <Input.Control
                 name="firstName"
-                id="firstName"
                 type="text"
               />
             </Input.Root>
@@ -77,7 +81,6 @@ export default function Home() {
                 <Mail className="h-5 w-5 text-zinc-500" />
               </Input.Prefix>
               <Input.Control
-                id="email"
                 type="email"
                 name="email"
               />
@@ -117,7 +120,6 @@ export default function Home() {
               <Input.Control
                 name="role"
                 id="role"
-                defaultValue="Product Designer"
               />
             </Input.Root>
           </div>
@@ -136,11 +138,11 @@ export default function Home() {
             Timezone
           </span>
           <Select.Root name="timezone">
-            <Select.Trigger>
+            <Select.Trigger id="timezone">
               <Select.Value placeholder="Select your timezone..." />
             </Select.Trigger>
 
-            <Select.Content>
+            <Select.Content id="timezone-list">
               <Select.Item value="utc-3">
                 <Select.ItemText>
                   Pacific Standard Time (PST)
@@ -201,7 +203,6 @@ export default function Home() {
             <Textarea
               name="bio"
               id="bio"
-              defaultValue="I'm a Product Designer based in Melbourne, Australia. I specialise in UX/UI design, brand strategy, and Webflow development."
             />
           </div>
         </div>
