@@ -17,7 +17,7 @@ export function CountrySelect(props: CountrySelectProps) {
   }
 
   return (
-    <Select.Root value={value} onValueChange={handleCountrySelected}>
+    <Select.Root name="country" value={value} onValueChange={handleCountrySelected}>
       <Select.Trigger id="country">
         <Select.Value placeholder="Select your country...">
           {value && (
