@@ -5,7 +5,7 @@ export interface ControlProps extends InputHTMLAttributes<HTMLInputElement> {}
 
 export function Control(props: ControlProps) {
   return (
-    <div
+    <input
     {...props}
     className={twMerge(
       'flex w-full items-center gap-2 rounded-lg border border-zinc-300 px-3 py-2 shadow-sm outline-none dark:border-zinc-700 dark:bg-zinc-800',
